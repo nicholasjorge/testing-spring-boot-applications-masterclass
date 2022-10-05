@@ -10,7 +10,7 @@ jobs:
     name: Build Application
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: Setup for Maven Repository Cache
         uses: actions/cache@v2
